@@ -1,0 +1,35 @@
+/* ESTILIZAÇÃO POR TAGS */
+
+ul{
+    background-color: rgb(50, 165, 165);
+    list-style: none;
+  
+}
+
+li{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+h1{
+    font-family: Impact, sans-serif;
+}
+
+/* ESTILIZAÇÃO POR ID */
+#caixa-rosa{
+    background-color: pink;
+}
+
+#caixa-roxe{
+    background-color: purple;
+}
+
+/* ETILIZAÇÃO POR CLASS */
+.caixinha{
+    background-color: white;
+    color: rgb(160, 11, 11);
+    margin: 20px;
+    width: 200px;
+    height: 75px;
+    display: inline-block;
+}
