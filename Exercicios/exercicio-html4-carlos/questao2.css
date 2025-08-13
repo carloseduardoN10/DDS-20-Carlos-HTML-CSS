@@ -1,0 +1,48 @@
+.pagina-azul{
+    background-color: rgb(0, 140, 255);
+}
+
+.paragrafo-verdeclaro{
+    background-color: greenyellow;
+}
+
+.imagem-flamengo{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS6nZxcjVBx-xNkmJCvE1ptvdd8jXzUEy1_A&s);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 100px;
+    height: 100px;
+}
+
+.imagem-vertical{
+
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF9uU5uQfB2om9Kba_qRqHIWsIJbZr-IfxZQ0gVNwqe0HUlBgrkoXAcWiSHDYRrRPr7ydjnh_r1rBU68vYx9YfZg);
+    background-position: repeat-y;
+    background-size: 400px;
+    height: 400px;
+}
+
+.imagem-semrepeticao{
+    background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSacZxMTMxSCOG5ytaMtF9UfOBzIqJlvcuESn2jJKsrfNrC_eXB2o288AbuzjHp5A_9t9seD_BfcnKQpFN9tcKX1RqbGlKURPgEEMznxA);
+    background-repeat: no-repeat;
+    background-size: auto;
+    height: 500px;
+}
+
+.imagem-semrepeticao2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSb2zVMGs9cduoEF1Vpte1yG9rl6hQXumIKQ&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 400px;
+    height: 400px;
+}
+
+.pagina-amarela{
+    background-color: yellow;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJrMDA2-OPSsn6Ou-iLYjrriQCKieHmh2tfw&s);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    background-size: 500px;
+    height: 400px;
+}
