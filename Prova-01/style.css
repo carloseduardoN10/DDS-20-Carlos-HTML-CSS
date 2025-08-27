@@ -1,0 +1,99 @@
+
+nav{
+    background-color: #3bacd9;
+    width: 100%;
+    height: 280px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    padding: 20px;
+    font-size: 30px;   
+    overflow: hidden;
+}
+#logo{
+    width: auto;
+    height: auto;
+
+}
+
+ul{
+    background-color: white;
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-top: auto;
+    padding: 10px;
+    margin-right: 20px;
+    color: #737373;
+    
+    
+}
+
+
+
+li{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    padding: 20px;
+    margin-left: 15px;
+}
+
+main{
+    background-color: #3bacd9;
+
+}
+
+#bloco{
+    background-color: white;
+    height: 400px;
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+
+#flex{
+    background-color: #3bacd9(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.mini-flex{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    line-height: 0px;
+}
+
+footer{
+    background-color: #3bacd9;
+}
+
+#linha-bloco{
+    background-color: #3bacd9;
+    margin-top: 10px;
+    text-align: center;
+    color: #737373;
+    font-weight: bold;
+    padding: 10px;
+    
+}
+
+.mini-bloco{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-top: 5px;
+    display: inline-block;
+    height: 200px;
+    line-height: 50px;
+}
