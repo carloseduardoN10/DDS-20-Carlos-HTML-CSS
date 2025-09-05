@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header{
+    background: #3bacd9;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px ;
+    height: 200px;
+    align-items: center;
+
+}
+
+header img{
+    height: 100px;
+    margin-left: 100px;
+    
+}
+
+ul{
+    
+    background-color: white;
+    display: flex;
+    list-style: none;
+    float: right;
+    margin-top: auto;
+    padding: 10px;
+    margin-right: 50px;
+    color: #737373;
+    
+    
+}
+
+
+li{
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+    padding: 10px;
+    margin-left: 20px;
+}
+main{
+    padding: 30px;
+    background: #3bacd9;
+}
+
+#flex{
+    background-color: #3bacd9(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+.mini-flex{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 350px;
+    text-align: center;
+    line-height: 30px;
+    color: #737373 ;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: #3bacd9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    height: 600px;
+}
+
+#linha-bloco{
+    
+    margin-top: 10px;
+    text-align: center;
+    color: #737373;
+    font-weight: bold;
+    padding: 10px;
+    width: 80%;
+    
+}
+
+.mini-bloco{
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    margin-top: 10px;
+    display: inline-block;
+    height: 400px;
+    
+}
+
+
+
+#primaria{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    background-color: #0a4b73;
+   
+}
+
+#secundaria{
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    background-color: #0a4b73;
+   
+}
+
+#terciaria{
+    width: 100%;
+    margin: auto;
+    height: 20px;
+    background-color: #0a4b73;
+   
+}
+
+#quaternaria{
+    width: 100%;
+    margin: auto;
+    height: 20px;
+    background-color: #0a4b73;
+   
+}

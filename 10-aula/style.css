@@ -85,3 +85,26 @@ body{
 #rodape{
     grid-area: rodape;
 }
+
+
+#flex{
+    background-color: black;
+    height: 700px;
+    min-width: 100%;
+    gap: 10px;
+    display: flex;
+    /* flex-wrap: wrap;
+    flex-direction: column-reverse; */
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    /* align-content: center; */
+}
+
+#quad1{
+    flex-shrink: 0;
+}
+
+#quad2{
+   flex-grow: 1;
+}
